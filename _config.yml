@@ -4,10 +4,10 @@ SEOTitle: alpha的博客 | BY Alpha
 header-img: img/post-bg-desk.jpg
 email: 2744614866@qq.com
 description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, alpha的博客, jixiangling, 邱柏荧, iOS, Apple, iPhone"
-url: "http://jixiangling.github.io"          # your host, for absolute URL
+keyword: "BY, BY Blog, alpha的博客, cartvector, 邱柏荧, iOS, Apple, iPhone"
+url: "http://cartvector.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/jixiangling/jixiangling.github.io.git" # you code repository
+github_repo: "https://github.com/cartvector/cartvector.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -20,7 +20,7 @@ sidebar-avatar: /img/a.JPG      # use absolute URL, seeing it's used in both `/`
 RSS: false
 # weibo_username:     qiubaiying
 zhihu_username:     abcd-43-97
-github_username:    jixiangling
+github_username:    cartvector
 #facebook_username:  baiying.qiu.7
 jianshu_username:   013a0ac1cf3e
 #twitter_username:   qiubaiying
@@ -65,9 +65,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: jixiangling.github.io    #仓库名称
-  owner: jixiangling    #github用户名
-  admin: jixiangling
+  repo: cartvector.github.io    #仓库名称
+  owner: cartvector    #github用户名
+  admin: cartvector
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 

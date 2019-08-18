@@ -65,4 +65,33 @@
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
     </script>
     <script></script>
+
+
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).load(function () {
+            //给每张图片添加标题,div.cnblogs_post_body是博客主体
+            $("div[id=cnblogs_post_body] img").each(function () {
+                var title = $(this).attr("title");
+                if (title != undefined) {
+                    var boardp_style = "style='display: block; text-align: center; color: #969696;padding: 10px;border-bottom: 1px solid #d9d9d9;margin: 0 auto;" +
+                        "width: " + ($(this).width() * 0.8) + "px;" +
+                        "height: 28px;" +
+                        "'>";
+                    var boardp = "<p " + boardp_style + title + "</p";
+                    $(this).after(boardp);
+                }
+            });
+        });
+    </script>
+    <!-- 将img变为块级元素 -->
+    <style type="text/css">
+        img {
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+
+
+
 </head>

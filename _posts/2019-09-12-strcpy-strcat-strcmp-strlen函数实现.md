@@ -7,7 +7,7 @@ author:     Alpha
 header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
-    - C++
+    - C/C++
 ---
 
 ### 一、字符串拷贝strcpy

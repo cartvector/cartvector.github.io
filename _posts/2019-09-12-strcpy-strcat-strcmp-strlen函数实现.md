@@ -14,6 +14,7 @@ tags:
 
 函数`strcpy`的原型是`char* strcpy(char* des , const char* src)`，des 和 src 所指内存区域不可以重叠且 des 必须有足够的空间来容纳 src 的字符串。
 
+
 ```C++
 #include <assert.h>
 #include <stdio.h>
